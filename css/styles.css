@@ -1,0 +1,158 @@
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  top: -150%;
+  z-index: -100;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  pointer-events: none;
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
+:root {
+  --title-text-color: #2e2f42;
+  --paragraph-text-color: #434455;
+  --contrast-color: #ffffff;
+  --second-contrast-color: #f4f4fd;
+  --active-text-color: #404bbf;
+  --logo-button-text: #4d5ae5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--paragraph-text-color);
+  background-color: var(--contrast-color);
+}
+header {
+  background: var(--contrast-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-button-text);
+}
+.logo-part {
+  font-family: "Releway", sans-serif;
+  color: var(--title-text-color);
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--active-text-color);
+}
+.connection {
+  font-style: normal;
+}
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--active-text-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: var(--logo-button-text);
+  color: var(--contrast-color);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--active-text-color);
+}
+.button-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--second-contrast-color);
+  color: var(--logo-button-text);
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--contrast-color);
+  background-color: var(--active-text-color);
+}
+.hero {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--contrast-color);
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-text-color);
+}
+.title-second {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.team-section {
+  background: var(--second-contrast-color);
+}
+.team-item {
+  background: var(--contrast-color);
+}
+.par-footer {
+  color: var(--second-contrast-color);
+}
+.footer {
+  background: var(--title-text-color);
+}
+.logo-part-footer {
+  color: var(--second-contrast-color);
+}
